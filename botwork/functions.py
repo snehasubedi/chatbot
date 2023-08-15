@@ -41,7 +41,7 @@ class conversation:
 
 
     def weather():
-        api_key="196e1b5348ce2de942730aa823c245e9"
+        api_key="yourapikey"
         city="Kathmandu"
         base_url='http://api.openweathermap.org/data/2.5/weather?'
         url= f"{base_url}appid={api_key}&q={city}"
